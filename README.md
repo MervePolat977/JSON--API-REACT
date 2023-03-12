@@ -18,7 +18,7 @@ Bu projeyi çalıştırmak için Node.js dosyalarının yüklü olması gerekiyo
 ------------------------------------------------------------------------
 
 #App.js Dosyası  
-'''javascript
+'''js
 //React kütüphanesinin React ve Component bileşenlerini projeye dahil eder.
 import React, { Component } from 'react';
 //App.css dosyasını projeye dahil eder.
@@ -72,5 +72,4 @@ class App extends Component {
 
 //App bileşenini dışa aktarır ve diğer dosyalarda kullanılmasını sağlar.
 export default App;
-
 '''
