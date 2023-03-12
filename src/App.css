@@ -1,0 +1,51 @@
+/*App bileşeninin stillerini tanımlar.*/
+.App { 
+  text-align: center;
+  background-color: #f3efef;
+  min-height: 100vh; /*bileşenin minimum yüksekliğini belirler.*/
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 16px;
+  margin: 8px;
+  background-color: rgb(31, 129, 159);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;  /*öğelerin görünümünün nasıl değişeceğini belirler.*/
+}
+
+li:nth-child(odd) {
+  background-color: #4ee04b;
+}
+
+
+/*bir öğenin üzerine gelindiğinde görüntüsünü değiştirir. */
+li:hover {
+  /*bir öğenin Y ekseninde (-4 piksel) yukarı doğru hareket etmesini sağlar.*/
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(71, 31, 192, 0.8);
+}
+
+
+
+
+/* 
+1-)transition: Bu özellik, öğenin hangi stil özelliklerinin geçiş efektine 
+sahip olacağını belirtir.
+
+2-)all: Bu değer, tüm stil özelliklerinin geçiş efektine sahip olacağını belirtir. 
+Alternatif olarak, transition özelliği içinde belirli bir stil 
+özelliği (örneğin background-color veya color) belirtilebilir.
+
+3-)0.3s: Bu değer, geçiş efektinin ne kadar süreceğini belirtir. Bu örnekte, 
+geçiş 0.3 saniye sürer.
+
+4-)ease: Bu değer, geçişin nasıl yapılacağını belirtir. ease, geçişin 
+başlangıcında yavaşlayarak, ortasında hızlanarak ve sonunda tekrar yavaşlayarak 
+ gerçekleştiğini belirtir.*/
