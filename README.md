@@ -3,7 +3,7 @@
 Bu repository'de Json Api kullanarak https://jsonplaceholder.typicode.com/users adresindeki verileri React kullanarak çektik. Bu adresteki verikerden sade name ve username değişkenlerini aldık. 
 
 -----------------------------------------------------------------------------------------
-#KURULUMLAR
+# KURULUMLAR  
 Bu projeyi çalıştırmak için Node.js dosyalarının yüklü olması gerekiyor. İnternetten araştırma yaparak kurulumunu yapabilirsinz.  
 1-Node.js dosyasının yüklü olup olmadığını öğrenmek için Visual Studio Code'da terminali açın.  
 2-Terminalde 'node -v' yazın. Eğer yüklüyse kaçıncı versiyonunun yüklü olduğunu görebilirsiniz. Yüklü değilse, Node.js kurulumunu yapınız.   
@@ -17,7 +17,7 @@ Bu projeyi çalıştırmak için Node.js dosyalarının yüklü olması gerekiyo
 
 ------------------------------------------------------------------------
 
-#App.js Dosyası  
+# App.js Dosyası   
 '''js
 //React kütüphanesinin React ve Component bileşenlerini projeye dahil eder.
 import React, { Component } from 'react';
@@ -73,3 +73,15 @@ class App extends Component {
 //App bileşenini dışa aktarır ve diğer dosyalarda kullanılmasını sağlar.
 export default App;
 '''
+
+
+
+----
+# Verileri Aldığımız Sayfa
+https://jsonplaceholder.typicode.com/users  
+![image](https://user-images.githubusercontent.com/75504698/224540231-3746dac9-0af5-4af4-af79-ef89ec287586.png)
+
+----
+
+# Oluşturduğumuz Web Sayfamızın Görüntüsü  
+![image](https://user-images.githubusercontent.com/75504698/224540150-7b21af0b-a809-4a3c-9561-1f2ed76b4628.png)
